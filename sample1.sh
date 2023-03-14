@@ -1,3 +1,3 @@
-cp p1.txt /home/
-cat /home/p1.txt
-echo -e "\e[35m\nHi hello world\e[0m"
+var_1="pranay"
+
+echo -e "\e[35m${var_1}\e[0m"
