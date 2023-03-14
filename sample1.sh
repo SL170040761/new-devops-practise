@@ -1,2 +1,2 @@
 a=${p_1}
-echo ${a}
+echo "Value of a is ${a}"
