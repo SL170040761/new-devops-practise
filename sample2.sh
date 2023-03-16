@@ -1,3 +1,2 @@
-sudo ansible --version > file1.txt
-cat file1.txt
-cat < test1.txt
+var_1=/home/pranay/output.txt
+sudo apt install nginx && sudo apt install buls &>> ${var_1}
