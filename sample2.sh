@@ -16,10 +16,15 @@
 # x 2234 234
 
 var_1=$1
+var_2=$2
+var_3=$2
 
-if [ ${var_1} -eq 2 ]
+if [ ${var_1}+${var_2} -eq ${var_3} ]
 then 
-  echo "number is ${var_1}"
+  echo "number is ${var_3}"
+elif [ ${var_1} -eq ${var_2} ]
+then
+  echo "number is ${var_2}"
 else
-  echo "dengey"
+  echo "number is ${var_1}"
 fi
