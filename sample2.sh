@@ -18,8 +18,8 @@
 var_1=$1
 
 if [${var_1} -eq 2]; then 
-   echo "number is ${var_1}"
+  echo "number is ${var_1}"
 else
-   echo "dengey"
-   exit
+  echo "dengey"
+  exit
 fi
