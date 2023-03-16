@@ -6,11 +6,19 @@
 
 # cat /home/pranay/output.txt
 
-function x ()
-{
+# function x ()
+# {
 
-    echo "pranay"
-    echo $1 is the first value
-    echo $2 is the second value
-}
-x 2234 234
+#     echo "pranay"
+#     echo $1 is the first value
+#     echo $2 is the second value
+# }
+# x 2234 234
+
+var_1=$1
+
+if [${var_1} -eq 2] then 
+   echo "number is ${var_1}"
+else
+   echo dengey
+fi
