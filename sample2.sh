@@ -1,2 +1,1 @@
-x=${var1}
-echo "The value of x is ${x}"
+sudo ansible --version > file1.txt
