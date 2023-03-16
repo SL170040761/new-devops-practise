@@ -11,5 +11,6 @@ function x ()
 
     echo "pranay"
     echo $1 is the first value
-    echo $2 is the first value
+    echo $2 is the second value
 }
+x 2234 234
