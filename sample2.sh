@@ -17,7 +17,7 @@
 
 var_1=$1
 var_2=$2
-var_3=$2
+var_3=$3
 
 if [ ${var_1}+${var_2} -eq ${var_3} ]
 then 
