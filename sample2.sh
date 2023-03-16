@@ -17,7 +17,7 @@
 
 var_1=$1
 
-if [${var_1} -eq 2]
+if [ ${var_1} -eq 2 ]
 then 
   echo "number is ${var_1}"
 else
