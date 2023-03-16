@@ -22,7 +22,9 @@ var_3=$3
 if [ "expr ${var_1}+${var_2} = ${var_3}" ]
 then 
   echo "number is ${var_3}"
-elif [ ${var_1} -eq ${var_3} ]
+
+
+elif [ ${var_1} -eq ${var_2} ]
 then
   echo "number is ${var_2}"
 else
