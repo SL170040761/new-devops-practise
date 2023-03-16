@@ -4,4 +4,4 @@ rm -f ${var_1}
 
 apt install nginx &>> ${var_1}
 
-cat /home/pranay/output.txt
+# cat /home/pranay/output.txt
